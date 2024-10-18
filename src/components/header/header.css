@@ -1,0 +1,28 @@
+.header {
+    background-color: #dd5c16;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  .header-title {
+    font-size: 24px;
+  }
+  
+  .header-nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .header-nav a {
+    color: rgb(223, 20, 20);
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .header-nav a:hover {
+    color: #61dafb;
+  }
